@@ -20,7 +20,7 @@ dotenv.config();
 server.use("/", express.static("./assets"));
 
 server.use(cors({
-    origin: "http://localhost:3000"
+    origin: "https://geesgstack-full-stack.vercel.app"
 }))
 
 server.use(fileUpload({
